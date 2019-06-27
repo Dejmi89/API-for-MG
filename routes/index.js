@@ -5,6 +5,8 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 const creds = require('../config/nodemailer');
 
+console.log('Welcome');
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });

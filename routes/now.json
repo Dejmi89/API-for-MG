@@ -1,7 +1,0 @@
-{
-    "version": 1,
-    "name": "nodejs-express-car-rental",
-    "builds": [
-      { "src": "index.js", "use": "@now/node-server"}
-  ]
-}
